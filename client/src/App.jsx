@@ -6,7 +6,7 @@ import Layout from './layouts/Layout.jsx'
 
 const App = () => {
   return (
-    <>t 
+    <>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<HomePage/>}/>
