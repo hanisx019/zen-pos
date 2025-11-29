@@ -7,7 +7,7 @@ import { MdSearch } from "react-icons/md";
 
 const Header = () => {
   return (
-    <div className='bg-zinc-950 w-full h-20 text-white flex items-center justify-between px-10'>
+    <div className='bg-zinc-950 w-full h-[10vh] text-white flex items-center justify-between px-10'>
 
       <div className="flex items-center gap-2">
         <MdOutlineRestaurantMenu size={27} color="white" />
