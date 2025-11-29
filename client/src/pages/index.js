@@ -1,3 +1,4 @@
 export { default as HomePage } from './HomePage.jsx'
 export { default as LoginPage } from './LoginPage.jsx'
 export { default as OrderPage } from './OrderPage.jsx'
+export { default as TablePage } from './TablePage.jsx'
