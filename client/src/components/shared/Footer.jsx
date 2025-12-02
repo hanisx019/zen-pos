@@ -8,7 +8,7 @@ import { useState } from "react";
 
 
 
-const Footer = () => {
+const Footer = ({form,setForm}) => {
 
   const [currentPage, setcurrentPage] = useState('home');
 
@@ -16,7 +16,6 @@ const Footer = () => {
     setcurrentPage(page);
   }
 
-  console.log(currentPage);
 
   return (
     <div className='h-[9vh] bg-zinc-950 text-zinc-400 flex items-center justify-around font-sans absolute bottom-0 w-full'>
@@ -37,7 +36,7 @@ const Footer = () => {
       <div onClick={()=>pageStatus('more')} className={`flex items-center gap-2   px-24 rounded-2xl py-3 ${currentPage==='more'?'bg-neutral-900 transition-all ease-in duration-200':''}`}><CgMoreO className="text-zinc-400" />More</div>
       </Link>
 
-      <button className="bg-orange-400 bottom-10 absolute size-12 rounded-full cursor-pointer"><RxBorderAll className="w-full " size={23} color="black" /></button>
+      <button onClick={()=>setForm(true)} className={`bg-orange-400 bottom-10 absolute size-12 rounded-full cursor-pointer`}><RxBorderAll className="w-full " size={23} color="black" /></button>
     </div>
   )
 }

@@ -1,8 +1,8 @@
-import React from 'react'
+
 import Earnings from '../components/Home/Earnings'
 import RecentOrders from '../components/Home/RecentOrders'
 import Greetings from '../components/Home/Greetings'
-import foodItems from '../constants/fooditems'
+import { foodItems } from '../constants/fooditems'
 
 const HomePage = () => {
   return (
