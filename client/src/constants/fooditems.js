@@ -37,7 +37,7 @@ export const foodItems=[
     },
     {
         id:"07",
-        img:"https://images.unsplash.com/photo-1543352634-7f3b8d6f0b5b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29rfGVufDB8fDB8fHw%3D",
+        img:"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFzdGF8ZW58MHx8MHx8MA%3D%3D",
         name:"Chook",
         orders:110
     },

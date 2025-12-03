@@ -1,9 +1,11 @@
 import { RxCross2 } from "react-icons/rx";
 import { useState } from "react"; 
+import { useNavigate } from "react-router-dom";
+
 
 const CreateOrder = ({form,setForm}) => {
 
-
+  const navigate = useNavigate();
   const [counter, setCounter] = useState(0);
   const [cname, setCname] = useState('');
   const [cphone, setCphone] = useState('');
@@ -24,6 +26,7 @@ const CreateOrder = ({form,setForm}) => {
     setCphone('');
     setCounter(0);
     setForm(false);
+    navigate('/table')
   }
 
 

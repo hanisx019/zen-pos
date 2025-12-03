@@ -1,6 +1,6 @@
 import { Routes , Route } from 'react-router-dom'
 
-import { HomePage, LoginPage, OrderPage , TablePage } from './pages/index.js'
+import { HomePage, LoginPage, OrderPage , TablePage , MenuPage } from './pages/index.js'
 import Layout from './layouts/Layout.jsx'
 
 
@@ -13,6 +13,7 @@ const App = () => {
           <Route path='order' element={<OrderPage/>}/>
           <Route path='table' element={<TablePage/>}/>
           <Route path='login' element={<LoginPage/>}/>
+          <Route path='menu' element={<MenuPage/>}/>
         </Route>
       </Routes>
     </>
