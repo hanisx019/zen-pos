@@ -10,8 +10,8 @@ const Layout = () => {
 
   return (
     <div>
-        <Header form={form} setForm={setForm}/>
-        <Outlet form={form} setForm={setForm}/>
+        <Header />
+        <Outlet/>
         <CreateOrder form={form} setForm={setForm} />
         <Footer form={form} setForm={setForm}/>
     </div>

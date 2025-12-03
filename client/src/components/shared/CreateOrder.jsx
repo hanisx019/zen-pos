@@ -10,8 +10,10 @@ const CreateOrder = ({form,setForm}) => {
   const [cname, setCname] = useState('');
   const [cphone, setCphone] = useState('');
 
-  const Increment=({})=>{
+  const Increment=()=>{
+    if(counter<8){
       setCounter(counter+1);
+    }
   }
   const Decrement=()=>{
     if(counter>0){

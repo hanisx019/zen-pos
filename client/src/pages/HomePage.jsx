@@ -1,4 +1,3 @@
-
 import Earnings from '../components/Home/Earnings'
 import RecentOrders from '../components/Home/RecentOrders'
 import Greetings from '../components/Home/Greetings'

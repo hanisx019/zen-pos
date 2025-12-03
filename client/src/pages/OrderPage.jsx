@@ -1,13 +1,19 @@
 import { IoArrowBackSharp } from "react-icons/io5";
 import Ordercard from "../components/Order/Ordercard";
-
+import { useNavigate } from "react-router-dom";
 
 const OrderPage = () => {
+  const navigate = useNavigate();
+  const goBack = () => {
+    if (window.history.length > 1) navigate(-1);
+    else navigate('/'); // fallback route
+  };
+
   return (
     <div className="bg-[#121212] p-4 px-10 h-[85vh]">
 
       <div className="flex items-center justify-between pb-2 ">
-        <div className="flex items-center gap-4 text-white   "><button className="bg-cyan-600 size-10 px-3 rounded-full"><IoArrowBackSharp className="text-white"/></button>Orders</div>
+        <div className="flex items-center gap-4 text-white   "><button onClick={goBack} className="cursor-pointer bg-cyan-600 size-10 px-3 rounded-full"><IoArrowBackSharp className="text-white"/></button>Orders</div>
         <div className="flex gap-10 text-neutral-400 text-sm">
           <p>All</p>
           <p>In Progress</p>

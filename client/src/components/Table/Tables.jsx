@@ -17,7 +17,7 @@ const Tables = ({ tableStatus , setTableStatus }) => {
         <div onClick={()=>{if(table.status==='Available') return navigate('/menu')}} key={table.id} className="bg-[#09090B] w-[350px] h-[170px] mt-6 rounded-lg   py-4 flex flex-col cursor-pointer ">
           <div className="flex justify-between px-5 py-2">
             <p className="text-white font-semibold text-md">{table.name}</p>
-            <div className="flex items-center gap-2 bg-green-950 text-green-500 py-1 px-2 justify-center rounded-md mb-2 text-xs">{table.status}</div>
+            <div className={`flex items-center gap-2 ${table.status==='Booked'?'bg-green-950 text-gray-200':'bg-amber-700 text-gray-200'} py-1 px-2 justify-center rounded-md mb-2 text-xs`}>{table.status}</div>
           </div>
 
           <div className="flex justify-center">
