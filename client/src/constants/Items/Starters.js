@@ -4,5 +4,19 @@ export const Starters = [
   { id: "st03", name: "Chicken Tandoori Legs", price: 250 },
   { id: "st04", name: "Golden Fried Baby Corn", price: 140 },
   { id: "st05", name: "Honey Chilli Potatoes", price: 160 },
-  { id: "st06", name: "Chicken Lollipop (6 pcs)", price: 220 }
+  { id: "st06", name: "Chicken Lollipop (6 pcs)", price: 220 },
+  { id: "st07", name: "Veg Manchurian Dry", price: 150 },
+  { id: "st08", name: "Chilli Chicken Dry", price: 210 },
+  { id: "st09", name: "Paneer 65", price: 170 },
+  { id: "st10", name: "Chicken 65", price: 230 },
+  { id: "st11", name: "Masala Papad", price: 60 },
+  { id: "st12", name: "Achari Paneer Tikka", price: 190 },
+  { id: "st13", name: "Fish Finger (6 pcs)", price: 260 },
+  { id: "st14", name: "Mushroom Chilli Dry", price: 160 },
+  { id: "st15", name: "Prawns Koliwada", price: 320 },
+  { id: "st16", name: "Chicken Seekh Kebab", price: 240 },
+  { id: "st17", name: "Veg Seekh Kebab", price: 150 },
+  { id: "st18", name: "Hara Bhara Kebab", price: 130 },
+  { id: "st19", name: "Stuffed Aloo Tikki", price: 110 },
+  { id: "st20", name: "Mutton Shami Kebab", price: 290 }
 ];

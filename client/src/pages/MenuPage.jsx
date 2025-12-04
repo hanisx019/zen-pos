@@ -11,6 +11,7 @@ import { Pizza } from '../constants/Items/Pizza'
 import { Drinks } from '../constants/Items/Drinks'
 import { Salads } from '../constants/Items/Salads'
 import { useNavigate } from "react-router-dom";
+import Cart from "../components/Menu/Cart";
 
 
 const MenuPage = () => {
@@ -40,7 +41,7 @@ const MenuPage = () => {
   };
 
   return (
-    <div className="bg-[#121212] p-4 gap-6 h-[85vh] flex">
+    <div className="bg-[#121212] p-4 gap-6 h-[82vh] flex">
 
       {/* Left Section */}
       <div className=" w-3/4">
@@ -126,18 +127,14 @@ const MenuPage = () => {
             }
 
           </div>
-
-
-
         </div>
-
-
       </div>
 
 
-
       {/* Right Section */}
-      <div className=" w-1/4">hey</div>
+      <div className=" w-1/4">
+        <Cart/>
+      </div>
 
 
 
